@@ -1,193 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Programming in Lisp is like playing with the primordial forces of the universe. It feels like lightning between your fingertips. No other language even feels close.">
-  <meta name="keywords" content="lisp programming language john mccarthy guy steele paul graham peter seibel quotes scheme dylan haskell">
-  <meta name="author" content="info@lispers.org">
-  <title>Lisp - made with secret alien technology</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Lisp — made with secret alien technology</h1>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Programming in Lisp is like playing with the primordial forces of the universe. It feels like lightning between your fingertips. No other language even feels close."
+    />
+    <meta
+      name="keywords"
+      content="lisp programming language john mccarthy guy steele paul graham peter seibel quotes scheme dylan haskell"
+    />
+    <meta name="author" content="info@lispers.org" />
+    <title>Lisp - made with secret alien technology</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Lisp — made with secret alien technology</h1>
+    </header>
 
-  <main>
-    <section id="quotes">
-      <!-- Each blockquote wrapped in an article for semantic structuring -->
-      <article aria-labelledby="quote-kay">
-        <blockquote id="quote-kay">
-          <p>“The greatest single programming language ever designed.”</p>
-          <footer>— <cite><a href="https://en.wikipedia.org/wiki/Alan_Kay">Alan Kay</a>, on Lisp</cite></footer>
-        </blockquote>
-      </article>
-      
-      <article aria-labelledby="quote-esr">
-        <blockquote id="quote-kay">
-          <p>“Lisp is worth learning for the profound enlightenment experience you will have when you finally
-          get it; that experience will make you a better programmer for the rest of your days, even if you never actually use
-          Lisp itself a lot.”</p>
-          <footer>— <cite> <a href="http://www.catb.org/~esr/">Eric Raymond</a>, <a
-              href="http://www.catb.org/~esr/faqs/hacker-howto.html">"How to Become a Hacker"</a></cite></footer>
-        </blockquote>
-      </article>
+    <main>
+      <section id="quotes">
+        <!-- Each blockquote wrapped in an article for semantic structuring -->
+        <article aria-labelledby="quote-kay">
+          <blockquote id="quote-kay">
+            <p>“The greatest single programming language ever designed.”</p>
+            <footer>
+              —
+              <cite
+                ><a href="https://en.wikipedia.org/wiki/Alan_Kay">Alan Kay</a>,
+                on Lisp</cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-hofstader">
-        <blockquote id="quote-hofstader">
-          <p>“One of the most important and fascinating of all computer languages is Lisp (standing for "List
-          Processing"), which was invented by John McCarthy around the time Algol was invented.”</p>
-          <footer>— <cite> <a href="http://www.cogs.indiana.edu/people/homepages/hofstadter.html">Douglas Hofstadter</a>, <a
-              href="http://en.wikipedia.org/wiki/G%C3%B6del%2C_Escher%2C_Bach">G&ouml;del, Escher, Bach</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-esr">
+          <blockquote id="quote-kay">
+            <p>
+              “Lisp is worth learning for the profound enlightenment experience
+              you will have when you finally get it; that experience will make
+              you a better programmer for the rest of your days, even if you
+              never actually use Lisp itself a lot.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://www.catb.org/~esr/">Eric Raymond</a>,
+                <a href="http://www.catb.org/~esr/faqs/hacker-howto.html"
+                  >"How to Become a Hacker"</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-graham">
-        <blockquote id="quote-graham">
-          <p>“Within a couple weeks of learning Lisp I found programming in any other language unbearably
-          constraining.”</p>
-          <footer>— <cite> <a href="http://www.paulgraham.com/">Paul Graham</a>, <a
-              href="http://wiki.alu.org/Paul_Graham's_Road_to_Lisp">Road to Lisp</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-hofstader">
+          <blockquote id="quote-hofstader">
+            <p>
+              “One of the most important and fascinating of all computer
+              languages is Lisp (standing for "List Processing"), which was
+              invented by John McCarthy around the time Algol was invented.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a
+                  href="http://www.cogs.indiana.edu/people/homepages/hofstadter.html"
+                  >Douglas Hofstadter</a
+                >,
+                <a
+                  href="http://en.wikipedia.org/wiki/G%C3%B6del%2C_Escher%2C_Bach"
+                  >G&ouml;del, Escher, Bach</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-lynbech">
-        <blockquote id="quote-lynbech">
-          <p>“Lisp is the most sophisticated programming language I know. It is literally decades ahead of the
-          competition ... it is not possible (as far as I know) to actually use Lisp seriously before reaching the point of no
-          return.”</p>
-          <footer>— <cite> <a href="http://defun.dk/weblog/">Christian Lynbech</a>, <a
-              href="http://wiki.alu.org/Christian_Lynbechs_Road_to_Lisp">Road to Lisp</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-graham">
+          <blockquote id="quote-graham">
+            <p>
+              “Within a couple weeks of learning Lisp I found programming in any
+              other language unbearably constraining.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://www.paulgraham.com/">Paul Graham</a>,
+                <a href="http://wiki.alu.org/Paul_Graham's_Road_to_Lisp"
+                  >Road to Lisp</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-greenspun">
-        <blockquote id="quote-greenspun">
-          <p>“<a href="http://en.wikipedia.org/wiki/Greenspun%27s_Tenth_Rule">Greenspun's Tenth Rule of
-            Programming</a>: any sufficiently complicated C or Fortran program contains an ad hoc informally-specified
-          bug-ridden slow implementation of half of Common Lisp.”</p>
-          <footer>— <cite> <a href="http://philip.greenspun.com/">Philip Greenspun</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-lynbech">
+          <blockquote id="quote-lynbech">
+            <p>
+              “Lisp is the most sophisticated programming language I know. It is
+              literally decades ahead of the competition ... it is not possible
+              (as far as I know) to actually use Lisp seriously before reaching
+              the point of no return.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://defun.dk/weblog/">Christian Lynbech</a>,
+                <a href="http://wiki.alu.org/Christian_Lynbechs_Road_to_Lisp"
+                  >Road to Lisp</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-steele">
-        <blockquote id="quote-steele">
-          <p>“We were not out to win over the Lisp programmers; we were after the C++ programmers. We managed to
-          drag a lot of them about halfway to Lisp. Aren't you happy?”</p>
-          <footer>— <cite> <a href="http://en.wikipedia.org/wiki/Guy_Steele">Guy Steele</a>, Java spec co-author, <a
-              href="http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg04045.html">LL1 mailing list,
-              2003</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-greenspun">
+          <blockquote id="quote-greenspun">
+            <p>
+              “<a href="http://en.wikipedia.org/wiki/Greenspun%27s_Tenth_Rule"
+                >Greenspun's Tenth Rule of Programming</a
+              >: any sufficiently complicated C or Fortran program contains an
+              ad hoc informally-specified bug-ridden slow implementation of half
+              of Common Lisp.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://philip.greenspun.com/"
+                  >Philip Greenspun</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-dijkstra">
-        <blockquote id="quote-dijkstra">
-          <p>“Lisp has jokingly been called "the most intelligent way to misuse a computer". I think that
-          description is a great compliment because it transmits the full flavor of liberation: it has assisted a number of
-          our most gifted fellow humans in thinking previously impossible thoughts.”</p>
-          <footer>— <cite> <a href="http://www.cs.utexas.edu/~EWD/">Edsger Dijkstra, CACM, 15:10</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-steele">
+          <blockquote id="quote-steele">
+            <p>
+              “We were not out to win over the Lisp programmers; we were after
+              the C++ programmers. We managed to drag a lot of them about
+              halfway to Lisp. Aren't you happy?”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://en.wikipedia.org/wiki/Guy_Steele">Guy Steele</a
+                >, Java spec co-author,
+                <a
+                  href="http://people.csail.mit.edu/gregs/ll1-discuss-archive-html/msg04045.html"
+                  >LL1 mailing list, 2003</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-graham-goodbad">
-        <blockquote id="quote-graham-goodbad">
-          <p>“Historically, languages designed for other people to use have been bad: Cobol, PL/I, Pascal, Ada,
-          C++. The good languages have been those that were designed for their own creators: C, Perl, Smalltalk,
-          Lisp.”</p>
-          <footer>— <cite> <a href="http://www.paulgraham.com/">Paul Graham</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-dijkstra">
+          <blockquote id="quote-dijkstra">
+            <p>
+              “Lisp has jokingly been called "the most intelligent way to misuse
+              a computer". I think that description is a great compliment
+              because it transmits the full flavor of liberation: it has
+              assisted a number of our most gifted fellow humans in thinking
+              previously impossible thoughts.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://www.cs.utexas.edu/~EWD/"
+                  >Edsger Dijkstra, CACM, 15:10</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-deutsch">
-        <blockquote id="quote-deutsch">
-          <p>“Lisp ... made me aware that software could be close to executable mathematics.”</p>
-          <footer>— <cite> <a href="http://en.wikipedia.org/wiki/L._Peter_Deutsch">L. Peter Deutsch</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-graham-goodbad">
+          <blockquote id="quote-graham-goodbad">
+            <p>
+              “Historically, languages designed for other people to use have
+              been bad: Cobol, PL/I, Pascal, Ada, C++. The good languages have
+              been those that were designed for their own creators: C, Perl,
+              Smalltalk, Lisp.”
+            </p>
+            <footer>
+              —
+              <cite> <a href="http://www.paulgraham.com/">Paul Graham</a></cite>
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-foderaro">
-        <blockquote id="quote-foderaro">
-          <p>“Lisp is a programmable programming language.”</p>
-          <footer>— <cite> <a href="http://www.paulgraham.com/chameleon.html">John Foderaro, CACM, September 1991</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-deutsch">
+          <blockquote id="quote-deutsch">
+            <p>
+              “Lisp ... made me aware that software could be close to executable
+              mathematics.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://en.wikipedia.org/wiki/L._Peter_Deutsch"
+                  >L. Peter Deutsch</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-money">
-        <blockquote id="quote-money">
-          <p>“Will write code that writes code that writes code that writes code for money.”</p>
-          <footer>— <cite> on <a href="http://groups.google.com/group/comp.lang.lisp">comp.lang.lisp</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-foderaro">
+          <blockquote id="quote-foderaro">
+            <p>“Lisp is a programmable programming language.”</p>
+            <footer>
+              —
+              <cite>
+                <a href="http://www.paulgraham.com/chameleon.html"
+                  >John Foderaro, CACM, September 1991</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-shivers">
-        <blockquote id="quote-shivers">
-          <p>“I object to doing things that computers can do.”</p>
-          <footer>— <cite> <a href="http://www.cc.gatech.edu/~shivers/">Olin Shivers</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-money">
+          <blockquote id="quote-money">
+            <p>
+              “Will write code that writes code that writes code that writes
+              code for money.”
+            </p>
+            <footer>
+              —
+              <cite>
+                on
+                <a href="http://groups.google.com/group/comp.lang.lisp"
+                  >comp.lang.lisp</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-pitman">
-        <blockquote id="quote-pitman">
-          <p>“Lisp is a language for doing what you've been told is impossible.”</p>
-          <footer>— <cite> <a href="http://en.wikipedia.org/wiki/Kent_Pitman">Kent Pitman</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-shivers">
+          <blockquote id="quote-shivers">
+            <p>“I object to doing things that computers can do.”</p>
+            <footer>
+              —
+              <cite>
+                <a href="http://www.cc.gatech.edu/~shivers/"
+                  >Olin Shivers</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-minsky">
-        <blockquote id="quote-minsky">
-          <p>“Anyone could learn Lisp in one day, except that if they already knew Fortran, it would take three
-          days.”</p>
-          <footer>— <cite> <a href="http://web.media.mit.edu/~minsky/">Marvin Minsky</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-pitman">
+          <blockquote id="quote-pitman">
+            <p>
+              “Lisp is a language for doing what you've been told is
+              impossible.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://en.wikipedia.org/wiki/Kent_Pitman"
+                  >Kent Pitman</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-ehrlich">
-        <blockquote id="quote-ehrlich">
-          <p>“Programming in Lisp is like playing with the primordial forces of the universe. It feels like
-          lightning between your fingertips. No other language even feels close.”</p>
-          <footer>— <cite> <a href="http://cooking-with-lisp.blogspot.com/">Glenn Ehrlich</a>, <a
-              href="http://wiki.alu.org/Glenn_Ehrlich_Road_to_Lisp">Road to Lisp</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-minsky">
+          <blockquote id="quote-minsky">
+            <p>
+              “Anyone could learn Lisp in one day, except that if they already
+              knew Fortran, it would take three days.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://web.media.mit.edu/~minsky/"
+                  >Marvin Minsky</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-fraser">
-        <blockquote id="quote-fraser">
-          <p>“Lisp is the red pill.”</p>
-          <footer>— <cite> John Fraser, on <a
-              href="http://groups.google.com/group/comp.lang.lisp/msg/4ee0678ea9a0ac28">comp.lang.lisp</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-ehrlich">
+          <blockquote id="quote-ehrlich">
+            <p>
+              “Programming in Lisp is like playing with the primordial forces of
+              the universe. It feels like lightning between your fingertips. No
+              other language even feels close.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://cooking-with-lisp.blogspot.com/"
+                  >Glenn Ehrlich</a
+                >,
+                <a href="http://wiki.alu.org/Glenn_Ehrlich_Road_to_Lisp"
+                  >Road to Lisp</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-aas">
-        <blockquote id="quote-aas">
-          <p>“The language God would have used to implement the Universe.”</p>
-          <footer>— <cite> Svein Ove Aas, <a href="http://wiki.alu.org/Svein_Ove_Aas's_Road_to_Lisp">Road to Lisp</a></cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-fraser">
+          <blockquote id="quote-fraser">
+            <p>“Lisp is the red pill.”</p>
+            <footer>
+              —
+              <cite>
+                John Fraser, on
+                <a
+                  href="http://groups.google.com/group/comp.lang.lisp/msg/4ee0678ea9a0ac28"
+                  >comp.lang.lisp</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-thornley">
-        <blockquote id="quote-thornley">
-          <p>“Lisp doesn't look any deader than usual to me.”</p>
-          <footer>— <cite> <a href="http://www.visi.com/~thornley/david/">David Thornley</a>, reply to a question older than most
-            programming languages</cite></footer>
-        </blockquote>
-      </article>
+        <article aria-labelledby="quote-aas">
+          <blockquote id="quote-aas">
+            <p>“The language God would have used to implement the Universe.”</p>
+            <footer>
+              —
+              <cite>
+                Svein Ove Aas,
+                <a href="http://wiki.alu.org/Svein_Ove_Aas's_Road_to_Lisp"
+                  >Road to Lisp</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-      <article aria-labelledby="quote-kay2">
-        <blockquote id="quote-kay2">
-          <p>“Don't worry about what anybody else is going to do. The best way to predict the future is to
-          invent it.”</p>
-          <footer>— <cite> <a href="http://en.wikipedia.org/wiki/Alan_Kay">Alan Kay</a></cite></footer>
-        </blockquote>
-      </article>
-  
-    </section>
-  </main>
+        <article aria-labelledby="quote-thornley">
+          <blockquote id="quote-thornley">
+            <p>“Lisp doesn't look any deader than usual to me.”</p>
+            <footer>
+              —
+              <cite>
+                <a href="http://www.visi.com/~thornley/david/">David Thornley</a
+                >, reply to a question older than most programming
+                languages</cite
+              >
+            </footer>
+          </blockquote>
+        </article>
 
-  <footer>
-    <p><strong>To learn firsthand what all these folks are talking about, continue on to Peter Seibel's excellent <a href="http://www.gigamonkeys.com/book/">Lisp tutorial</a>.</strong></p>
-    <p>Alien logo based on graphics by <a href="http://www.lisperati.com/logo.html">Conrad Barski</a>.</p>
-  </footer>
-</body>
+        <article aria-labelledby="quote-kay2">
+          <blockquote id="quote-kay2">
+            <p>
+              “Don't worry about what anybody else is going to do. The best way
+              to predict the future is to invent it.”
+            </p>
+            <footer>
+              —
+              <cite>
+                <a href="http://en.wikipedia.org/wiki/Alan_Kay"
+                  >Alan Kay</a
+                ></cite
+              >
+            </footer>
+          </blockquote>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <strong
+          >To learn firsthand what all these folks are talking about, continue
+          on to Peter Seibel's excellent
+          <a href="http://www.gigamonkeys.com/book/">Lisp tutorial</a>.</strong
+        >
+      </p>
+      <p>
+        Alien logo based on graphics by
+        <a href="http://www.lisperati.com/logo.html">Conrad Barski</a>.
+      </p>
+    </footer>
+  </body>
 </html>
