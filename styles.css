@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 600px;
+  margin: 20px auto;
+  font-family: Palatino, 'Palatino Linotype', Georgia, serif;
+  font-size: 90%;
+  line-height: 140%;
+  color: #333;
+}
+
+a {
+  color: #847ee0;
+}
+
+h1 {
+  width: 580px;
+  height: 120px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background: url('logo.png') no-repeat left top;
+  background-size: cover;
+}
+
+blockquote {
+  width: 550px;
+  margin: 65px auto;
+  text-align: center;
+  font-size: 120%;
+}
+
+blockquote big {
+  margin: 0 3px;
+}
+
+blockquote span {
+  display: block;
+  margin: 10px 0 0 0;
+  font-style: italic;
+}
+
+blockquote span * {
+  color: #8c8c8c;
+}
+
+.footer {
+  display: block;
+  font: 80% Arial, sans-serif;
+  color: #8c8c8c;
+  text-align: center;
+}
+
+span#promo {
+  margin: 0px 0px 20px 0px;
+  font: 100% Arial, sans-serif;
+}
+
+span#copyright {
+  margin: 0 0 5px 0;
+}
